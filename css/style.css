@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-top: 5px;
+}
+html {
+  scroll-behavior: smooth;
+  background-image: url(../assets/baixados.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+button {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  font-weight: 800;
+}
+
+footer {
+  height: auto;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.5);
+  color: #fff;
+  font-size: 15px;
+}
+
+.tabela {
+  color: #fff;
+  background-color: rgba(20, 20, 20, 0.5);
+  font-weight: 500;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 2px;
+
+  text-align: center;
+}
+
+.ul-style {
+  display: flex;
+  font-size: 25px;
+  margin: 30px;
+  font-family: sans-serif;
+  list-style: none;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.cadastro {
+  background: #fff;
+  color: #000;
+  border-radius: 25px;
+  padding: 25px;
+  text-align: center;
+  display: grid;
+  width: 90vw;
+  margin-bottom: 10px;
+}
+
+.clientes {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: 100vh;
+}
+.produtos {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  height: 100vh;
+}
+#topo {
+  color: white;
+  background: black;
+  border: 0.5px solid black;
+}
